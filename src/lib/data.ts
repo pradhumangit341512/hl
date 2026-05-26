@@ -1,0 +1,50 @@
+export interface MenuItem {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  category: string;
+  image: string;
+  isVeg: boolean;
+  isSpecial: boolean;
+}
+
+export interface Category {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export const defaultCategories: Category[] = [
+  { id: "starters", name: "Royal Starters", description: "Begin your feast with our exquisite appetizers" },
+  { id: "mains", name: "Main Course", description: "Signature dishes crafted by our master chefs" },
+  { id: "tandoor", name: "Tandoor Special", description: "From the royal clay oven" },
+  { id: "biryani", name: "Biryani & Rice", description: "Aromatic rice preparations" },
+  { id: "breads", name: "Indian Breads", description: "Freshly baked from our tandoor" },
+  { id: "desserts", name: "Royal Desserts", description: "Sweet endings to a royal meal" },
+  { id: "beverages", name: "Beverages", description: "Refreshing drinks and cocktails" },
+  { id: "cafe", name: "Cafe Special", description: "Coffee, shakes & light bites" },
+];
+
+export const defaultMenuItems: MenuItem[] = [
+  { id: "1", name: "Paneer Tikka Royale", description: "Marinated cottage cheese grilled in tandoor with saffron and royal spices", price: 399, category: "starters", image: "/images/paneer-tikka.jpg", isVeg: true, isSpecial: true },
+  { id: "2", name: "Murgh Malai Kebab", description: "Creamy chicken kebabs with cashew paste and cardamom", price: 449, category: "starters", image: "/images/malai-kebab.jpg", isVeg: false, isSpecial: true },
+  { id: "3", name: "Dahi Ke Kebab", description: "Soft hung curd kebabs with mint chutney", price: 329, category: "starters", image: "/images/dahi-kebab.jpg", isVeg: true, isSpecial: false },
+  { id: "4", name: "Laal Maas", description: "Traditional Rajasthani fiery mutton curry with mathania chillies", price: 599, category: "mains", image: "/images/laal-maas.jpg", isVeg: false, isSpecial: true },
+  { id: "5", name: "Dal Baati Churma", description: "Authentic Rajasthani dal with baked wheat balls and sweet churma", price: 449, category: "mains", image: "/images/dal-baati.jpg", isVeg: true, isSpecial: true },
+  { id: "6", name: "Gatte Ki Sabzi", description: "Gram flour dumplings in spiced yogurt gravy", price: 349, category: "mains", image: "/images/gatte.jpg", isVeg: true, isSpecial: false },
+  { id: "7", name: "Butter Chicken", description: "Tender chicken in rich tomato-butter gravy", price: 499, category: "mains", image: "/images/butter-chicken.jpg", isVeg: false, isSpecial: false },
+  { id: "8", name: "Paneer Lababdar", description: "Cottage cheese in creamy tomato-onion gravy", price: 399, category: "mains", image: "/images/paneer-lababdar.jpg", isVeg: true, isSpecial: false },
+  { id: "9", name: "Tandoori Chicken", description: "Full chicken marinated overnight and roasted in tandoor", price: 549, category: "tandoor", image: "/images/tandoori.jpg", isVeg: false, isSpecial: true },
+  { id: "10", name: "Seekh Kebab", description: "Minced lamb kebabs with fresh herbs", price: 449, category: "tandoor", image: "/images/seekh.jpg", isVeg: false, isSpecial: false },
+  { id: "11", name: "Hyderabadi Biryani", description: "Fragrant basmati rice with tender meat and whole spices", price: 499, category: "biryani", image: "/images/biryani.jpg", isVeg: false, isSpecial: true },
+  { id: "12", name: "Veg Dum Biryani", description: "Layered vegetable biryani with saffron", price: 399, category: "biryani", image: "/images/veg-biryani.jpg", isVeg: true, isSpecial: false },
+  { id: "13", name: "Garlic Naan", description: "Soft bread with fresh garlic and butter", price: 89, category: "breads", image: "/images/naan.jpg", isVeg: true, isSpecial: false },
+  { id: "14", name: "Lachha Paratha", description: "Layered flaky wheat bread", price: 79, category: "breads", image: "/images/paratha.jpg", isVeg: true, isSpecial: false },
+  { id: "15", name: "Gulab Jamun", description: "Soft milk dumplings in cardamom sugar syrup", price: 199, category: "desserts", image: "/images/gulab-jamun.jpg", isVeg: true, isSpecial: false },
+  { id: "16", name: "Mawa Kachori", description: "Traditional Rajasthani sweet kachori with rabri", price: 249, category: "desserts", image: "/images/mawa-kachori.jpg", isVeg: true, isSpecial: true },
+  { id: "17", name: "Royal Saffron Lassi", description: "Creamy yogurt drink with saffron and pistachios", price: 179, category: "beverages", image: "/images/lassi.jpg", isVeg: true, isSpecial: true },
+  { id: "18", name: "Masala Chai", description: "Traditional Indian spiced tea", price: 99, category: "beverages", image: "/images/chai.jpg", isVeg: true, isSpecial: false },
+  { id: "19", name: "Cold Coffee Frappe", description: "Blended iced coffee with cream", price: 229, category: "cafe", image: "/images/coffee.jpg", isVeg: true, isSpecial: false },
+  { id: "20", name: "Hazelnut Cappuccino", description: "Premium espresso with hazelnut and frothy milk", price: 259, category: "cafe", image: "/images/cappuccino.jpg", isVeg: true, isSpecial: true },
+];

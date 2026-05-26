@@ -1,26 +1,106 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-gold: #baa383;
+  --color-gold-light: #d4c4a8;
+  --color-gold-dark: #8a7056;
+  --color-black: #000000;
+  --color-charcoal: #32373c;
+  --color-white: #ffffff;
+  --color-gray-light: #f8f8f8;
+  --color-gray: #666666;
+  --color-gray-dark: #333333;
+  --font-heading: var(--font-cardo);
+  --font-body: var(--font-inter);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Utility classes matching Deliciuz style */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em 2em;
+  background-color: #32373c;
+  color: #ffffff;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  transform: scale(1.02);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em 2em;
+  background-color: transparent;
+  color: #32373c;
+  border: 1.5px solid #32373c;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #32373c;
+  color: #ffffff;
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em 2em;
+  background-color: #baa383;
+  color: #ffffff;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #8a7056;
+  transform: scale(1.02);
+}
+
+.section-divider {
+  width: 60px;
+  height: 1px;
+  background-color: #baa383;
+  margin: 0 auto;
+}
+
+.heading-style {
+  font-family: var(--font-heading);
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.card-shadow {
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.08);
 }

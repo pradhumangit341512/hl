@@ -1,0 +1,42 @@
+[
+  {
+    "id": "starters",
+    "name": "Royal Starters",
+    "description": "Begin your feast with our exquisite appetizers"
+  },
+  {
+    "id": "mains",
+    "name": "Main Course",
+    "description": "Signature dishes crafted by our master chefs"
+  },
+  {
+    "id": "tandoor",
+    "name": "Tandoor Special",
+    "description": "From the royal clay oven"
+  },
+  {
+    "id": "biryani",
+    "name": "Biryani & Rice",
+    "description": "Aromatic rice preparations"
+  },
+  {
+    "id": "breads",
+    "name": "Indian Breads",
+    "description": "Freshly baked from our tandoor"
+  },
+  {
+    "id": "desserts",
+    "name": "Royal Desserts",
+    "description": "Sweet endings to a royal meal"
+  },
+  {
+    "id": "beverages",
+    "name": "Beverages",
+    "description": "Refreshing drinks and cocktails"
+  },
+  {
+    "id": "cafe",
+    "name": "Cafe Special",
+    "description": "Coffee, shakes & light bites"
+  }
+]

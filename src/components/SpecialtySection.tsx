@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const dishes = [
   { name: "Laal Maas", price: "₹599", image: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80" },
-  { name: "Dal Baati Churma", price: "₹449", image: "https://images.unsplash.com/photo-1606491956689-2ea866880049?w=400&q=80" },
+  { name: "Dal Baati Churma", price: "₹449", image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&q=80" },
   { name: "Royal Biryani", price: "₹499", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&q=80" },
   { name: "Paneer Tikka", price: "₹399", image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=80" },
   { name: "Tandoori Chicken", price: "₹549", image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&q=80" },

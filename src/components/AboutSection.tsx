@@ -35,7 +35,7 @@ export default function AboutSection() {
             <div className="w-[60px] h-[1px] mb-8" style={{ backgroundColor: "#baa383" }} />
 
             <p className="font-light leading-relaxed mb-4" style={{ color: "#666" }}>
-              Located near the iconic Hawa Mahal in the heart of Pink City, Royal Jaipur
+              Located near the iconic Hawa Mahal in the heart of Pink City, Halli Jaipur
               has been serving culinary excellence since 1985. Founded by the Rathore family,
               our recipes trace back to the royal kitchens of Mewar and Marwar.
             </p>

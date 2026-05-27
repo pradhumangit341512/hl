@@ -33,7 +33,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="heading-style text-4xl md:text-6xl lg:text-7xl text-white mb-6"
         >
-          Royal Jaipur
+          Halli Jaipur
         </motion.h1>
 
         <motion.div

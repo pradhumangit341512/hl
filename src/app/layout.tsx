@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Royal Jaipur - Fine Dining Restaurant, Cafe & Banquet | Jaipur",
+  title: "Halli Jaipur - Fine Dining Restaurant, Cafe & Banquet | Jaipur",
   description:
     "Experience the royal taste of Jaipur. Fine dining restaurant, rooftop cafe, luxury banquet hall, and panoramic rooftop dining. Book a table today.",
 };

@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl tracking-[0.15em] uppercase text-white mb-2" style={{ fontFamily: "var(--font-heading)" }}>
-              Royal Jaipur
+              Halli Jaipur
             </h3>
             <p className="text-[11px] uppercase tracking-[0.3em] mb-6" style={{ color: "#baa383" }}>
               Restaurant & Cafe
@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4" style={{ borderTop: "1px solid rgba(255,255,255,0.1)" }}>
           <p className="text-xs text-white/40">
-            &copy; {new Date().getFullYear()} Royal Jaipur. All rights reserved.
+            &copy; {new Date().getFullYear()} Halli Jaipur. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-white/40 hover:text-[#baa383] transition-colors">Facebook</a>

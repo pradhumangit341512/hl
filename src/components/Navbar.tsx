@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <span className="text-2xl tracking-[0.15em] uppercase" style={{ fontFamily: "var(--font-heading)", fontWeight: 400, color: scrolled ? "#000" : "#fff" }}>
-              Royal Jaipur
+              Halli Jaipur
             </span>
             <span className="text-[10px] tracking-[0.3em] uppercase" style={{ color: scrolled ? "#baa383" : "#baa383" }}>
               Restaurant & Cafe

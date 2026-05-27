@@ -48,7 +48,7 @@ export default function AdminLoginPage() {
               <Crown className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-3xl font-bold" style={{ fontFamily: "var(--font-heading)", color: "#c1624d" }}>Admin Panel</h1>
-            <p className="text-sm mt-2" style={{ color: "#6b6b6b" }}>Royal Jaipur Management</p>
+            <p className="text-sm mt-2" style={{ color: "#6b6b6b" }}>Halli Jaipur Management</p>
           </div>
 
           <form onSubmit={handleLogin} className="space-y-5">

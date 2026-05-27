@@ -103,7 +103,7 @@ export default function AdminDashboard() {
             <Crown className="w-8 h-8 text-gold" />
             <div>
               <h1 className="text-xl font-heading font-bold text-gold">Admin Panel</h1>
-              <p className="text-cream/40 text-xs">Royal Jaipur Management</p>
+              <p className="text-cream/40 text-xs">Halli Jaipur Management</p>
             </div>
           </div>
           <button
